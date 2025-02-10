@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/users_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="A"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/icon_round" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bài kiểm tra"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu" />
+
+    <Spinner
+        android:id="@+id/level_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/level_options"
+        android:minHeight="54dp"
+         />
+
+    <Spinner
+        android:id="@+id/question_count_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/question_count_options"
+        android:minHeight="54dp"
+        />
+
+    <Spinner
+        android:id="@+id/time_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/time_options"
+        android:minHeight="54dp" />
+    <Button
+        android:id="@+id/exam_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tham gia bằng mã" />
+
+</LinearLayout>

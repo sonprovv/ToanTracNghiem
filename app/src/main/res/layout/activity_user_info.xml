@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Ảnh đại diện -->
+        <ImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_user_placeholder"
+            android:contentDescription="Ảnh đại diện"
+            android:scaleType="centerCrop"
+            android:background="@drawable/avatar_background" />
+
+        <!-- Họ tên -->
+        <TextView
+            android:layout_marginVertical="10dp"
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ tên: Nguyễn Văn A"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="@drawable/info_background" />
+
+        <!-- Email -->
+        <TextView
+            android:layout_marginVertical="10dp"
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: example@gmail.com"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="@drawable/info_background" />
+
+        <!-- Tuổi -->
+        <TextView
+            android:layout_marginVertical="10dp"
+            android:id="@+id/user_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuổi: 25"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="@drawable/info_background" />
+
+        <!-- Giới tính -->
+        <TextView
+            android:layout_marginVertical="10dp"
+            android:id="@+id/user_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giới tính: Nam"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:background="@drawable/info_background" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu thay đổi"
+            android:paddingHorizontal="10dp"
+            android:textSize="24sp"
+            android:paddingVertical="8dp"
+            android:textColor="#F6F3F3"
+            android:background="@drawable/sample_image"
+            android:backgroundTint="@color/primary_color"
+            />
+    </LinearLayout>
+</ScrollView>

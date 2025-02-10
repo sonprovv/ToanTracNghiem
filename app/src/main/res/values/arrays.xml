@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level_options">
+        <item>Chọn mức level</item>
+        <item>Lớp 4</item>
+        <item>Lớp 5</item>
+        <item>Lớp 6</item>
+    </string-array>
+    <string-array name="question_count_options">
+        <item>Chọn số câu hỏi</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="time_options">
+        <item>Chọn thời gian</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>3 phút</item>
+        <item>4 phút</item>
+        <item>5 phút</item>
+    </string-array>
+    <string-array name="correct_answer_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>

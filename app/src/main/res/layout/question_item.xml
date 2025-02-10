@@ -1,0 +1,65 @@
+<!-- res/layout/question_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightGray"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_image"
+        android:layout_marginVertical="20dp"/>
+
+    <Button
+        android:id="@+id/change_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi ảnh" />
+
+    <EditText
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Câu hỏi"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/option_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn A"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/option_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn B"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/option_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn C"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/option_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn D"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/correct_answer_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/correct_answer_array"
+        android:minHeight="48dp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_view_info"
+        android:icon="@drawable/ic_user_info"
+        android:title="Xem thông tin" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Đăng xuất" />
+</menu>

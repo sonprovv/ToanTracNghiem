@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập ID bài kiểm tra để bắt đầu"
+        android:textSize="24sp"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/quiz_id_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID bài kiểm tra"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/start_quiz_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu kiểm tra" />
+</LinearLayout>
